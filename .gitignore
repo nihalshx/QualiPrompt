@@ -1,0 +1,39 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data files (keep .csv and .jsonl in repo if desired, but exclude large ones)
+*.jsonl
+*.csv
+!sample_data/*.csv
+
+# Streamlit cache
+.streamlit/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# Sentence transformer model cache
+sentence_transformers/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
