@@ -24,8 +24,8 @@
 ### 1. Clone & install
 
 \`\`\`bash
-git clone https://github.com/YOUR_USERNAME/qualiprompt.git
-cd qualiprompt
+git clone https://github.com/nihalshx/QualiPrompt.git
+cd QualiPrompt
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 \`\`\`
@@ -52,7 +52,7 @@ Open http://localhost:8501 in your browser.
 ## 🏗️ Project Structure
 
 \`\`\`
-qualiprompt/
+QualiPrompt/
 │
 ├── app.py                  # Streamlit UI (main entry point)
 ├── prompt_engine.py        # Generates five prompt variants from a task
